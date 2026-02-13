@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "layouts", "layouts\layouts.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HorizontalVerticalStackDemo", "HorizontalVerticalStackDemo\HorizontalVerticalStackDemo.csproj", "{416174B4-FB72-427F-A9A5-49AA51C026AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grid", "Grid\Grid.csproj", "{D24DFD59-32C0-4013-8CA9-6FB96D2E0AE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{416174B4-FB72-427F-A9A5-49AA51C026AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{416174B4-FB72-427F-A9A5-49AA51C026AD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{416174B4-FB72-427F-A9A5-49AA51C026AD}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D24DFD59-32C0-4013-8CA9-6FB96D2E0AE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24DFD59-32C0-4013-8CA9-6FB96D2E0AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24DFD59-32C0-4013-8CA9-6FB96D2E0AE4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D24DFD59-32C0-4013-8CA9-6FB96D2E0AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24DFD59-32C0-4013-8CA9-6FB96D2E0AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24DFD59-32C0-4013-8CA9-6FB96D2E0AE4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

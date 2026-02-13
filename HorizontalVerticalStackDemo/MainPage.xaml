@@ -4,29 +4,21 @@
              x:Class="HorizontalVerticalStackDemo.MainPage">
 
    
-        <VerticalStackLayout>
-            <Label 
-                Text="Hello, World!"
-                FontSize="24"
-                HorizontalOptions="Center"
-                VerticalOptions="Center" />
-            <Label 
-                Text="Hello, World!"
-                FontSize="24"
-                HorizontalOptions="Center"
-                VerticalOptions="Center" />
-            <Label 
-                Text="Hello, World!"
-                FontSize="24"
-                HorizontalOptions="Center"
-                VerticalOptions="Center" />
-            <Label 
-                BackgroundColor="Blue"
-                Text="Hello, World!"
-                FontSize="24"
-                HorizontalOptions="Center"
-                VerticalOptions="FillAndExpand" /> 
-    </VerticalStackLayout>
+        <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height=".3*"></RowDefinition>
+            <RowDefinition Height=".7*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        
+            
+        <Button  Text="Button 1" BackgroundColor="LightBlue" Grid.Column="0" Grid.Row="0"  />
+        <Button Text="Button 2" HeightRequest="180" BackgroundColor="LightGreen" Grid.Column="1" Grid.Row="1"  />
+
+    </Grid>
    
 
 </ContentPage>
