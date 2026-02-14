@@ -1,4 +1,4 @@
-﻿namespace Grid
+﻿namespace AbsoluteLayout
 {
     public partial class App : Application
     {
@@ -6,7 +6,7 @@
         {
             InitializeComponent();
 
-            MainPage = new Grid();
+            MainPage = new AppShell();
         }
     }
 }
