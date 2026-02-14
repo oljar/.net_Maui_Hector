@@ -5,7 +5,15 @@
              Title="AbsoluteLayout"
              BackgroundColor="DarkRed">
     <AbsoluteLayout>
-        <Button Text="Cick1" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All"></Button>
-        <Button Text="Cick2"></Button>
+        <!--<Button Text="Cick1" AbsoluteLayout.LayoutBounds=".5,.5,.5,.5" AbsoluteLayout.LayoutFlags="All"></Button>-->
+
+
+        
+        <!--<Button Text="Cick1" AbsoluteLayout.LayoutBounds="0,200,300,.5" AbsoluteLayout.LayoutFlags="HeightProportional"></Button>-->
+        <Button Text="Cick1" AbsoluteLayout.LayoutBounds="0,200,0.5,.5" AbsoluteLayout.LayoutFlags="SizeProportional"></Button>
+
+
+
+       
     </AbsoluteLayout>
 </ContentPage>
