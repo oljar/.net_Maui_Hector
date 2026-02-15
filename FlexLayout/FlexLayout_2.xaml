@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FlexLayout.FlexLayout_2"
+             Title="FlexLayout_2">
+
+    <!-- Musi być w stronie nawigacyjnej-->
+    <!-- Pasek menu -->
+    <ContentPage.MenuBarItems>
+        <!-- MENU: Plik -->
+        <MenuBarItem Text="Plik">
+            <MenuFlyoutItem Text="Nowy" Command="{Binding NewCommand}" />
+            <MenuFlyoutItem Text="Otwórz" Command="{Binding OpenCommand}" />
+            <MenuFlyoutItem Text="Zapisz" Command="{Binding SaveCommand}" />
+            <MenuFlyoutSeparator />
+            <MenuFlyoutItem Text="Zakończ" Command="{Binding ExitCommand}" />
+        </MenuBarItem>
+        <!-- MENU: Widok -->
+        <MenuBarItem Text="Widok">
+            <MenuFlyoutSubItem Text="Motyw">
+                <MenuFlyoutItem Text="Jasny" Command="{Binding ChangeThemeCommand}" CommandParameter="Light" />
+                <MenuFlyoutItem Text="Ciemny" Command="{Binding ChangeThemeCommand}" CommandParameter="Dark" />
+            </MenuFlyoutSubItem>
+            <MenuFlyoutSeparator />
+            <MenuFlyoutItem Text="Odśwież" Command="{Binding RefreshCommand}" />
+        </MenuBarItem>
+        <!-- MENU: Pomoc -->
+        <MenuBarItem Text="Pomoc">
+            <MenuFlyoutItem Text="O programie" Command="{Binding AboutCommand}" />
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
+    <!-- Główna zawartość strony -->
+    <VerticalStackLayout Padding="20" Spacing="12">
+        <Label Text="To jest przykładowa strona z paskiem menu .NET MAUI" FontSize="18" HorizontalOptions="Center" />
+        <Button Text="Przykładowy przycisk" />
+    </VerticalStackLayout>
+</ContentPage>
