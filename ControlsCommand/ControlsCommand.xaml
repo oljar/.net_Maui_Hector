@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlsCommand.ControlsCommand"
+             Title="ControlsCommand">
+    <VerticalStackLayout>
+        <Button
+            x:Name="CounterBtn"
+            Text="Click me" 
+            SemanticProperties.Hint="Counts the number of times you click"
+            Clicked="CounterBtn_Clicked"
+            HorizontalOptions="Fill" />
+
+        <ImageButton
+            Source="dotnet_bot.png"
+            Clicked="ImageButton_Clicked" />
+
+        <RadioButton
+            Content="Option1"
+            CheckedChanged="RadioButton_CheckedChanged"
+            GroupName="group1"/>
+        <RadioButton
+            Content="Option2"
+            CheckedChanged="RadioButton_CheckedChanged_1"
+            GroupName="group1"/>
+        <RadioButton
+            Content="Option3"
+            CheckedChanged="RadioButton_CheckedChanged_2"
+            GroupName="group2"/>
+        <RadioButton
+            Content="Option4"
+            CheckedChanged="RadioButton_CheckedChanged_3"
+            GroupName="group2"/>
+
+
+        <SearchBar
+            x:Name="searchControl"
+            SearchButtonPressed="searchControl_SearchButtonPressed" />
+
+
+        <SwipeView>
+            <SwipeView.LeftItems>
+                <SwipeItems>
+                    <SwipeItem
+                        BackgroundColor="LightGreen"
+                        IconImageSource="dotnet_bot.png"
+                        Invoked="SwipeItem_Invoked"
+                        Text="Favorite"/>
+                    <SwipeItem
+                        BackgroundColor="LightPink"
+                        IconImageSource="dotnet_bot.png"
+                        Invoked="SwipeItem_Invoked"
+                        Text="Delete"/>
+                </SwipeItems>
+            </SwipeView.LeftItems>
+            <Grid BackgroundColor="LightGray"
+                  HeightRequest="60"
+                  WidthRequest="300">
+                <Label HorizontalOptions="Center"
+                    Text="Swipe Right"
+                    VerticalOptions="Center"/>
+            </Grid>
+        </SwipeView>
+
+
+
+
+    </VerticalStackLayout>
+    
+    
+    
+</ContentPage>
