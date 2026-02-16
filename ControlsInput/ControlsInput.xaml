@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlsInput.ControlsInput"
+             Title="ControlsInput">
+    <StackLayout>
+        <CheckBox IsChecked="True" CheckedChanged="CheckBox_CheckedChanged"/>
+        <Slider x:Name="SliderControl" Minimum="0" Maximum="100" MinimumTrackColor="Yellow" MaximumTrackColor="Red" ValueChanged="sliderControl_ValueChanged"/>
+        <Label x:Name="lblSlider" Text="slider" HorizontalOptions="Center"/>
+
+        <Stepper x:Name="Stepper"
+              Minimum="0"
+              Maximum="10" 
+              Increment="1" 
+              ValueChanged="Stepper_ValueChanged"/>
+
+
+
+
+        <Switch Toggled="Switch_Toggled"/>
+
+
+        <DatePicker
+            x:Name="DatePickerControl"
+            DateSelected="DatePickerControl_DateSelected"
+            HorizontalOptions="Fill" />
+
+        <TimePicker
+            x:Name="TimePickerControl"
+            PropertyChanged="TimePickerControl_PropertyChanged"/>
+
+
+
+
+
+
+
+    </StackLayout>
+
+
+</ContentPage>

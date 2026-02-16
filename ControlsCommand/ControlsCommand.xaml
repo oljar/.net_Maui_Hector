@@ -53,7 +53,7 @@
                         Text="Delete"/>
                 </SwipeItems>
             </SwipeView.LeftItems>
-            <Grid BackgroundColor="LightGray"
+            <Grid BackgroundColor="Yellow"
                   HeightRequest="60"
                   WidthRequest="300">
                 <Label HorizontalOptions="Center"
