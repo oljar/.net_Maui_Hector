@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsToEditText", "Contr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsActivity", "ControlsActivity\ControlsActivity.csproj", "{C9C4AD26-0312-487A-A6CD-C7F6F86BC298}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsToDisplayCollections", "ControlsToDisplayCollections\ControlsToDisplayCollections.csproj", "{B7A92609-153B-4977-966C-DB6F3141332F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +99,12 @@ Global
 		{C9C4AD26-0312-487A-A6CD-C7F6F86BC298}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9C4AD26-0312-487A-A6CD-C7F6F86BC298}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C9C4AD26-0312-487A-A6CD-C7F6F86BC298}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B7A92609-153B-4977-966C-DB6F3141332F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A92609-153B-4977-966C-DB6F3141332F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A92609-153B-4977-966C-DB6F3141332F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B7A92609-153B-4977-966C-DB6F3141332F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A92609-153B-4977-966C-DB6F3141332F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A92609-153B-4977-966C-DB6F3141332F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
