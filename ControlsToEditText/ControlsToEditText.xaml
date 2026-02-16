@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControlsToEditText.ControlsToEditText"
+             Title="ControlsToEditText">
+    <StackLayout>
+        <Entry Placeholder="Enter text here" 
+               x:Name="txtName"
+               PlaceholderColor="Darkgreen"
+               IsPassword="True"
+               Keyboard="Telephone"
+               TextChanged="txtName_TextChanged"
+               Completed="txtName_Completed"/>
+
+        <Editor Placeholder="Enter more text here" 
+                x:Name="txtDescription"
+                PlaceholderColor="Darkgreen"
+                IsTextPredictionEnabled="False"
+                AutoSize="TextChanges"
+                TextChanged="txtDescription_TextChanged"/>
+       
+
+
+    </StackLayout>
+</ContentPage>
