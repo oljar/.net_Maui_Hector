@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsInput", "ControlsIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsToEditText", "ControlsToEditText\ControlsToEditText.csproj", "{03D0F2E7-A426-4956-AAE1-0B0ED959A5A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsActivity", "ControlsActivity\ControlsActivity.csproj", "{C9C4AD26-0312-487A-A6CD-C7F6F86BC298}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,12 @@ Global
 		{03D0F2E7-A426-4956-AAE1-0B0ED959A5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03D0F2E7-A426-4956-AAE1-0B0ED959A5A0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{03D0F2E7-A426-4956-AAE1-0B0ED959A5A0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{C9C4AD26-0312-487A-A6CD-C7F6F86BC298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C4AD26-0312-487A-A6CD-C7F6F86BC298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C4AD26-0312-487A-A6CD-C7F6F86BC298}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C9C4AD26-0312-487A-A6CD-C7F6F86BC298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C4AD26-0312-487A-A6CD-C7F6F86BC298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9C4AD26-0312-487A-A6CD-C7F6F86BC298}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
